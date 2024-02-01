@@ -1,0 +1,18 @@
+@import url("styles/cabecalho.css");
+@import url("styles/marcas.css");
+@import url("styles/carrosel.css");
+@import url("styles/produtos.css");
+@import url("styles/rodape.css");
+
+:root{
+    --branco: #ffffff;
+    --preto: #000000;
+    --cinza: #969191;
+    --fonte-principal: 'Bebas Neue';
+    --fonte-secundaria: 'Orbitron';
+}
+
+body{
+    background-color: var(--branco);
+    font-family: var(--fonte-principal);
+}
